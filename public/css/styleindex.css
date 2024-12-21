@@ -1,0 +1,183 @@
+.navbar {
+    background-image: url("/images/Navbar.avif");
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid rgb(6, 6, 6);
+}
+
+img{
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+li{
+    padding: 20px;
+}
+
+
+
+.welcome-container {
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.notice-card {
+    background-image: url('/images/spiral.jpg');
+    background-size: cover;
+    background-color: #2c3e50;
+    color: black;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 4px solid #fff;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-card h5 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    line-clamp: 3;
+}
+
+.notice-card p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.notice-card a {
+    text-decoration: none;
+}
+
+
+.notice-footer {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    display: block;
+    justify-content: end;
+    text-align: right;
+    
+}
+
+.notice-footer span {
+    display: block;
+    justify-content: end;
+    text-align: right;
+    font-size: 0.8rem;
+    
+}
+
+.notice-footer .italic {
+    font-style: italic;
+}
+
+@media (max-width: 250px) {
+    .notice-cards .card {
+        max-width: 100%;
+    }
+}
+
+body {
+    background-image: url('/images/blackboard.jpg');
+    background-size: cover;
+}
+
+.top{
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer{
+    background-image: url("/images/Navbar.avif");
+    bottom: 0px;
+    width: 100%;
+    height: 250px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* Calendar Icon */
+.calendar-icon {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    z-index: 1050;
+}
+
+/* The Modal (background) */
+.calendar-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+}
+
+/* Modal Content */
+.calendar-content {
+    background-color: white;
+    margin: 5% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,71 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("/images/dypiu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+#username, #email, #course, #password{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px black solid;
+}
+
+
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  
+
+.form-box {
+    background-color: aliceblue;
+    width: 100%;
+    max-width: 500px;
+    background-color:rgb(255, 255, 255);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn{
+    border: 1px black solid;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-success{
+    margin-left: 38%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
